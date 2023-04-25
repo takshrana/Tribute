@@ -2,44 +2,44 @@ body{
     margin: 0px;
 }
 
-.intro{
-    background-image: url("images/elon-musk.png");
-    background-position: right;
-    background-size: auto ;
-    background-repeat: no-repeat;
+section{
+    padding: 0 18rem;
     background-color: black;
 }
 
-p{
-    margin: 0px;
+.bg-img{
+    float: right;
 }
 
-.title-name{
-    color:grey;
-    font-family: sans-serif;
-    font-size: 2.5rem;
+
+.info{
     text-align: left;
     padding: 12rem;
     padding-left: 7rem;
 
 }
 
-.top-nav{
-    background-color: black;
-    overflow: hidden;
+.title-name{
+    color:grey;
+    font-family: sans-serif;
+    font-size: 2.5rem;
 }
 
-.top-nav a{
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 1.2rem 1.6rem;
-    margin-right: 2em;
-    text-decoration: none;
-    font-size: 1.3rem;
+.disc{
+    color:grey;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    text-align: left;
 }
 
-.top-nav a:hover{
-    color: grey;
-    
+.intro-button{
+    color:grey;
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    float: left;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin-right: 0.2rem;
+    padding: 0.4rem 0.8rem; 
 }
